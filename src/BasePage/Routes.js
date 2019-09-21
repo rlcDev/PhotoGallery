@@ -7,6 +7,7 @@ function Routes() {
     let route;
   return(
       CATEGORIES.map( (c, index) => {
+          {console.log(process.env.PUBLIC_URL)}
           if(c.name === "") {
               route = <Route exact path = {c.path} component = {c.component} key = {index}/>
           } else {

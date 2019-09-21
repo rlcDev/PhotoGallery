@@ -1,5 +1,3 @@
-import Maison from './maison_cap.JPG';
-
 export const IMAGES =
 [{
         //src: Maison,

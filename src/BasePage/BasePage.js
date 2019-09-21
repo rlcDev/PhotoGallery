@@ -7,7 +7,7 @@ import Routes from './Routes';
 
 function BasePage() {
     return (
-        <Router>
+        <Router basename = {process.env.PUBLIC_URL}>
                 <Header/>
                 <Switch>
                     {Routes()}

@@ -1,4 +1,4 @@
-import Poirsouille from './Others';
+import Others from './Others';
 import Landscape from './Landscape';
 import Art from './Art';
 import Home from './Home';
@@ -14,17 +14,17 @@ export const CATEGORIES = [
     },
     {
         name: "Landscape", 
-        path: "/landscape", 
+        path: process.env.PUBLIC_URL + "/landscape", 
         component: Landscape
     },
     {
         name: "Art",
-        path: "/art",
+        path: process.env.PUBLIC_URL + "/art",
         component: Art
     },
     {
         name: "Others",
-        path: "/others", 
-        component: Poirsouille
+        path: process.env.PUBLIC_URL + "/others", 
+        component: Others
     }
 ];
