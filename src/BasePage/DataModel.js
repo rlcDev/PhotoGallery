@@ -14,17 +14,17 @@ export const CATEGORIES = [
     },
     {
         name: "Landscape", 
-        path: process.env.PUBLIC_URL + "/landscape", 
+        path: "/landscape", 
         component: Landscape
     },
     {
         name: "Art",
-        path: process.env.PUBLIC_URL + "/art",
+        path: "/art",
         component: Art
     },
     {
         name: "Others",
-        path: process.env.PUBLIC_URL + "/others", 
+        path: "/others", 
         component: Others
     }
 ];
