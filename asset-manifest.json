@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PhotoGallery/static/css/main.e123068c.chunk.css",
+    "main.js": "/PhotoGallery/static/js/main.e9df595a.chunk.js",
+    "main.js.map": "/PhotoGallery/static/js/main.e9df595a.chunk.js.map",
+    "runtime-main.js": "/PhotoGallery/static/js/runtime-main.cf210256.js",
+    "runtime-main.js.map": "/PhotoGallery/static/js/runtime-main.cf210256.js.map",
+    "static/css/2.266e55a5.chunk.css": "/PhotoGallery/static/css/2.266e55a5.chunk.css",
+    "static/js/2.c9e43770.chunk.js": "/PhotoGallery/static/js/2.c9e43770.chunk.js",
+    "static/js/2.c9e43770.chunk.js.map": "/PhotoGallery/static/js/2.c9e43770.chunk.js.map",
+    "index.html": "/PhotoGallery/index.html",
+    "precache-manifest.d94cc7357cc5ec0dc49ec75ad0fa9b5f.js": "/PhotoGallery/precache-manifest.d94cc7357cc5ec0dc49ec75ad0fa9b5f.js",
+    "service-worker.js": "/PhotoGallery/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/PhotoGallery/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.e123068c.chunk.css.map": "/PhotoGallery/static/css/main.e123068c.chunk.css.map"
+  }
+}
