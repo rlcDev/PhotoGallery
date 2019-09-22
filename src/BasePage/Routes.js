@@ -3,18 +3,12 @@ import { CATEGORIES } from "./DataModel";
 import { Route } from 'react-router-dom';
 
 function Routes() {
-  
-    let route;
-  return(
-      CATEGORIES.map( (c, index) => {
-          if(c.name === "") {
-              route = <Route exact path = {c.path} component = {c.component} key = {index}/>
-          } else {
-              route = <Route exact path = {c.path} component = {c.component} key = {index}/>
-          }
-          return route
-      })
-  )
+
+    return (
+        CATEGORIES.map((c, index) => {
+            return <Route exact path={c.path} component={c.component} key={index} />
+        })
+    )
 }
 
 export default Routes;
