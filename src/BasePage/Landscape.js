@@ -3,8 +3,7 @@ import { IMAGES } from './ImageLandscapeProvider';
 import Gallery from 'react-grid-gallery';
 
 function Landscape() {
-  
-  return(
+    return(
     <div>
     <Gallery images={IMAGES}/>
     </div>
