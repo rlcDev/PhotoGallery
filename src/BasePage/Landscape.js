@@ -1,5 +1,5 @@
 import React from 'react';
-import { IMAGES } from './ImageLandscapeMetadata';
+import { IMAGES } from './ImageLandscapeProvider';
 import Gallery from 'react-grid-gallery';
 
 function Landscape() {

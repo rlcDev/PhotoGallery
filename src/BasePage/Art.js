@@ -1,5 +1,5 @@
 import React from 'react';
-import { IMAGES } from './ImageArtMetadata';
+import { IMAGES } from './ImageArtProvider';
 import Gallery from 'react-grid-gallery';
 
 function Art() {

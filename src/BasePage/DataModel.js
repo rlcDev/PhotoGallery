@@ -1,4 +1,3 @@
-import Others from './Others';
 import Landscape from './Landscape';
 import Art from './Art';
 import Home from './Home';
@@ -6,6 +5,7 @@ import Home from './Home';
 export const HEADER_TITLE = "@rlcdev";
 export const COPYRIGHT = "©rlcdev";
 export const WELCOME_MESSAGE = "Welcome";
+
 export const CATEGORIES = [
     {
         name: "",
@@ -13,7 +13,7 @@ export const CATEGORIES = [
         component: Home
     },
     {
-        name: "Landscape", 
+        name: "Landscape",
         path: "/landscape", 
         component: Landscape
     },
@@ -21,10 +21,5 @@ export const CATEGORIES = [
         name: "Art",
         path: "/art",
         component: Art
-    },
-    {
-        name: "Others",
-        path: "/others", 
-        component: Others
     }
 ];
